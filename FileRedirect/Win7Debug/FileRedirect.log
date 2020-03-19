@@ -1,0 +1,27 @@
+﻿生成启动时间为 2020/3/19 14:13:37。
+项目“Z:\Playground\FileRedirect\FileRedirect\FileRedirect.vcxproj”在节点 2 上(Rebuild 个目标)。
+StampInf:
+  C:\Program Files (x86)\Windows Kits\8.1\bin\x86\stampinf.exe -d "*" -a "x86" -v "*" -k "1.11" -u "1.11.0" -f Win7Debug\FileRedirect.inf 
+  Stamping Win7Debug\FileRedirect.inf [Version] section with DriverVer=03/19/2020,14.13.37.942
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IWin7Debug\ /Zi /nologo /W3 /WX- /sdl- /Od /Oi /Oy- /D _X86_=1 /D i386=1 /D STD_CALL /D DEPRECATE_DDK_FUNCTIONS=1 /D MSC_NOOPT /D _WIN32_WINNT=0x0601 /D WINVER=0x0601 /D WINNT=1 /D NTDDI_VERSION=0x06010000 /D DBG=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Fo"Win7Debug\\" /Fd"Win7Debug\vc120.pdb" /Gz /wd4748 /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /analyze- /errorReport:prompt /kernel -cbstring /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ utils.c FileRedirect.c
+  utils.c
+  FileRedirect.c
+  正在生成代码...
+ResourceCompile:
+  C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _X86_=1 /D i386=1 /D STD_CALL /D DEPRECATE_DDK_FUNCTIONS=1 /D MSC_NOOPT /D _WIN32_WINNT=0x0601 /D WINVER=0x0601 /D WINNT=1 /D NTDDI_VERSION=0x06010000 /D DBG=1 /D "SMP_ID=\\\"{f2f62967-0815-4fd7-9b86-6eedcac766eb}\\\"" /l"0x0409" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\UM" /IWin7Debug\ /nologo /fo"Win7Debug\FileRedirect.res" FileRedirect.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Playground\FileRedirect\Win7Debug\FileRedirect.sys" /VERSION:"6.3" /INCREMENTAL:NO /NOLOGO /WX /SECTION:"INIT,d" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\fltmgr.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\memcmp.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\BufferOverflowK.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\ntoskrnl.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\hal.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\wmilib.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"Z:\Playground\FileRedirect\Win7Debug\FileRedirect.pdb" /SUBSYSTEM:NATIVE,"6.01" /Driver /OPT:REF /OPT:ICF /ENTRY:"GsDriverEntry@8" /RELEASE /IMPLIB:"Z:\Playground\FileRedirect\Win7Debug\FileRedirect.lib" /MERGE:"_TEXT=.text;_PAGE=PAGE" /MACHINE:X86 /PROFILE /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 /osversion:6.3 /pdbcompress /debugtype:pdata Win7Debug\FileRedirect.res
+  Win7Debug\utils.obj
+  Win7Debug\FileRedirect.obj
+  FileRedirect.vcxproj -> Z:\Playground\FileRedirect\Win7Debug\FileRedirect.sys
+DriverTestSign:
+  C:\Program Files (x86)\Windows Kits\8.1\bin\x86\signtool.exe sign /ph /sha1 "D9A0A9F75797C7185310F8DCF782D6E1F2E806F3" 
+  Done Adding Additional Store
+  Successfully signed: Z:\Playground\FileRedirect\Win7Debug\FileRedirect.sys
+  
+已完成生成项目“Z:\Playground\FileRedirect\FileRedirect\FileRedirect.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.45
