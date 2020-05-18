@@ -10,7 +10,7 @@ Signature   = "$Windows NT$"
 Class = "ActivityMonitor"
 ClassGuid = {b86dff51-a31e-4bac-b3cf-e8cfe75c9fc2}
 Provider    = %ManufacturerName%
-DriverVer=03/19/2020,14.13.37.942
+DriverVer=03/26/2020,10.56.48.429
 CatalogFile = FileRedirect.cat
 
 [DestinationDirs]
